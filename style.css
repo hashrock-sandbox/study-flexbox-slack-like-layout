@@ -16,10 +16,11 @@ nav{
 	display: flex;
 }
 
-aside{
-	background: #777799;
-	width: 300px;
-	position: relative;
+aside {
+    background: #77384E;
+    width: 300px;
+    color: #CE9E9E;
+    position: relative;
 }
 
 section{
@@ -40,11 +41,18 @@ h1{
 	padding: 10px;
 	vertical-align: middle;
 }
-.item__text{
+.item__body{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 10px;
 	color: #555;
+}
+.item__text{
+	
+}
+
+.item__user{
+	font-weight: bold;
 }
 
 .avatar{
